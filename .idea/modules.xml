@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Condition and loops/Code/Code.iml" filepath="$PROJECT_DIR$/Condition and loops/Code/Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodePractice/CodePractice.iml" filepath="$PROJECT_DIR$/CodePractice/CodePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/First Program/First Program.iml" filepath="$PROJECT_DIR$/First Program/First Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack&amp;Queues/Stack&amp;Queues.iml" filepath="$PROJECT_DIR$/Stack&amp;Queues/Stack&amp;Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Condition and loops/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/Condition and loops/untitled1/untitled1.iml" />
+    </modules>
+  </component>
+</project>
