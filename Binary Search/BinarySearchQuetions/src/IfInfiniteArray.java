@@ -5,6 +5,7 @@ public class IfInfiniteArray {
 
         int[] arr = { 2, 3, 4, 10, 12 , 14 ,40, 56, 57, 81, 92, 100, 102, 104 };
         int x = 56;
+        // done
         System.out.println(ans(arr,x));
     }
 
