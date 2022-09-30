@@ -8,7 +8,7 @@ public class RotatedBS {
     }
 
     static int search(int[] nums, int target){
-        int pivot = findPivot(nums)
+        int pivot = findPivot(nums);
 
         //if you don't find pivot it means array is not rotated
 
