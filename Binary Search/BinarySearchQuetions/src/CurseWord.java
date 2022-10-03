@@ -5,28 +5,29 @@ public class CurseWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        String[] st = s.split("//s");
+        String[] st = s.split("\\s");
         String[] curse = {"Idiot", "Stupid", "Mad"};
-        StringBuilder res = new StringBuilder();
-
+        StringBuilder es = new StringBuilder();
         StringBuilder temp = new StringBuilder();
         for (String item : curse) {
+//            StringBuilder temp = new StringBuilder();
             for (int j = 0; j < item.length(); j++) {
                 temp.append('*');
             }
         }
 
-        int ind = 0;
-        for (String value : curse){
-            for(String str: st){
-                if (str.compareTo(value) == 0) {
+        for (String item : curse){
+            int ind = 0;
+            for (String str : st) {
+                if (str.compareTo(item) == 0) {
                     st[ind] = temp.toString();
-                    ind++;
                 }
+                ind++;
             }
         }
 
-        for(String i: st){
+        StringBuilder res = new StringBuilder();
+        for (String i : st) {
             res.append(i).append(' ');
         }
         System.out.println(res);
