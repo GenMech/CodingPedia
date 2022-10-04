@@ -1,39 +1,42 @@
 import java.util.ArrayList;
 
 // Spiral Matrix - 1
+// Spiral Matrix - 2
 public class SpiralMatrix {
     public static void main(String[] args) {
-        int[][] matrix = {{1,2,3},
-                          {4,5,6},
-                          {7,8,9}};
+//        int[][] matrix = {{1,2,3},
+//                          {4,5,6},
+//                          {7,8,9}};
 
-        print2D(matrix);
+//        print2D(matrix);
 
-        ArrayList<Integer> ans = new ArrayList<>();
+//        ArrayList<Integer> ans = new ArrayList<>();
+        int n = 3;
+        int[][] matrix = new int[n][n];
 
         int rowB = 0;
         int colB = 0;
         int rowE = matrix.length - 1;
         int colE = matrix[0].length - 1;
+        int ele = 1;
 
-        while(rowB <= rowE && colB <= colE){
-
+        while(rowB <= rowE && colB <= colE && ele <= n*n){
             //traverse right
             for (int i = colB; i <= colE; i++){
-                ans.add(matrix[rowB][i]);
+                matrix[rowB][i] = ele++;
             }
             rowB++;
 
             //traverse down
             for(int j = rowB; j <= rowE; j++){
-                ans.add(matrix[j][colE]);
+                matrix[j][colE] = ele++;
             }
             colE--;
 
             //traverse left
             if(rowB <= rowE){
                 for (int k = colE; k >= colB; k--){
-                    ans.add(matrix[rowE][k]);
+                    matrix[rowE][k] = ele++;
                 }
             }
             rowE--;
@@ -41,12 +44,12 @@ public class SpiralMatrix {
             //traverse up
             if(colB <= colE){
                 for(int l = rowE; l >= rowB; l--){
-                    ans.add(matrix[l][colB]);
+                    matrix[l][colB] = ele++;
                 }
             }
             colB++;
         }
-        System.out.println(ans);
+        print2D(matrix);
     }
 
     public static void print2D(int[][] matrix){
