@@ -3,7 +3,7 @@ public class BinarySearch {
     public static void main(String args[])
     {
 
-        int arr[] = { 2, 3, 4, 10, 12 , 14 ,40 };
+        int arr[] = { 1, 6, 4, 10, 12 , 14 ,40 };
         int x = 13;
         int ans = binarysearch(arr,x);
         System.out.println(ans);
